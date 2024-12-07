@@ -4,7 +4,7 @@ from main import add, subtract, multiply, divide
 class TestMathOperations(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(add(3, 2), 5)
+        self.assertEqual(add(3, 2), 4)
         self.assertEqual(add(-1, 1), 0)
 
     def test_subtract(self):
